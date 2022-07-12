@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 from PIL import Image
 
-image = Image.open('B2DBy.jpeg')
+image = Image.open('ImageForGradient/puppy.jpeg')
 
 # Ref: https://www.delftstack.com/howto/python/convert-image-to-grayscale-python/
 imgGray = image.convert('L')
@@ -27,7 +27,9 @@ gx, gy = np.gradient(imgGray)
 
 # Gradient along the x-axis
 plt.imshow(gx)
+plt.show()
 
 # Gradient along the y-axis
 plt.imshow(gy)
+plt.show()
 
