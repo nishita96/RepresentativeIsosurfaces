@@ -1,4 +1,4 @@
-# RepresentativeIsosurfaces
+# Representative Isovalue Detection in Volumetric Data
 
 Implementing a new measure on volumetric data to detect relevant iso-values using the published paper ”Representative Isovalue
 Detection and Isosurface Segmentation Using Novel Isosurface Measures” DOI:10.1111/cgf.13961 [link to paper](https://www.researchgate.net/publication/343051674_Representative_Isovalue_Detection_and_Isosurface_Segmentation_Using_Novel_Isosurface_Measures)
