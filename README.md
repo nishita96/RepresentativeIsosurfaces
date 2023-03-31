@@ -24,4 +24,4 @@ Usage
 
 Run script <kbd>python3 imageGradientCalculation.py </kbd> to calculate gradient of image. 
 
-Run script <kbd>python3 mainIsosurfaces.py </kbd> to find relevant iso-values of the given data. 
+Run script <kbd>python3 mainIsosurfaces.py </kbd> to find relevant iso-values of the volumetric data. 
