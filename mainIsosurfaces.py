@@ -82,11 +82,11 @@ for i in range(0, 255):
 ## Calculating the Surface area
 sSigma = np.array([0 for k in range(maxIso+1)])
 
- Surface area for isosurfaces
- for i in range(0, 256):
+# Surface area for isosurfaces
+for i in range(0, 256):
  #   Mesh for particular isovalue
-     verts, faces, normals, values = measure.marching_cubes(arr_3d, i)
-     sSigma[i] = measure.mesh_surface_area(verts, faces)
+    verts, faces, normals, values = measure.marching_cubes(arr_3d, i)
+    sSigma[i] = measure.mesh_surface_area(verts, faces)
 
 xaxis = np.array([k for k in range(256)])
 
